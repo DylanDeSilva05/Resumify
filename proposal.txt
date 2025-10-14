@@ -1,0 +1,37 @@
+1. Project name:   Web application for efficient and secure job application management 
+2. Project Goal:   
+To develop, build, and test a secure, scalable, and accessible Web-based Job Application Management System that 
+automates resume processing, optimizes candidate shortlisting, and provides actionable analytics to support HR teams 
+in evidence-based decisions throughout the recruitment process.
+
+5. Background Recruitment is critical to the success of every organization. Nevertheless, traditional resume screening methods are increasingly inefficient and burdensome. Corporate-jobs postings attract, on average, 250+ applications, of which only 2–3% are shortlisted and interviewed (Kurtuy, 2024; Noor, 2024). Time spent by recruiters on examining each resume is about 6 to 7 seconds, hence raising doubts of oversight, bias, and inefficiency (The Interview Guys, 2025). High applicant volume does "resume fatigue" to recruiters, thereby degrading their level of efficiency and favoring error incidence in assessment (Snow Owl, 2025; Patten, 2024). Another issue is that being unwieldy manual screening, it adds several hidden costs, such as delayed hiring, administrative overload, and risk of bias (Pepi, 2024; Kaushik, 2025). The studies showed that unconscious bias and poor matching of candidates with jobs occur in conventional screening methods (Black & Esch, 2020; Fraij & Laszlo, 2021). AI-grounded tools appear to have the potential to automate the resume-screening process to enhance fairness, accuracy, and efficiency, with some case studies claiming hiring procedures to be completed 70% faster (Mujtaba & Mahapatra, 2024; Coleman, 2024). Yet accessible, user-friendly solutions remain limited.
+
+9. Tools and Technical Requirements  
+Major tools, Frameworks and Software   
+1 Programming Language   Backend: Python (primary)  
+Frontend: HTML,CSS, JavaScript  
+2 Web Framework   Backend: Django and FastAPI  
+Frontend: React.js  
+3 Database   PostgreSQL  
+4 Security   
+Authentication: JWT (JSON Web Token) , 2fa (google authenticator)
+Data Security:  OWASP Top 10,  HTTPS/TLS, Input validation, Password 
+hashing (bcrypt)
+
+9. Tools and Technical Requirements  
+Major tools, Frameworks and Software   
+1 Programming Language   Backend: Python (primary)  
+Frontend: HTML,CSS, JavaScript  
+2 Web Framework   Backend: Django and FastAPI  
+Frontend: React.js  
+3 Database   PostgreSQL  
+4 Security   
+Authentication: JWT (JSON Web Token)  
+Data Security:  OWASP Top 10,  HTTPS/TLS, Input validation, Password 
+hashing (bcrypt)
+
+Candidate Management: Automatic parsing of CVs and clever filtering will save time spent on the manual screening and short listing of candidates.
+	Role-Based Access: The system has three levels of privileges (Admin HR, Standard HR, Recruiter HR) to enable secure and well-organized access to features.
+	Automation of the Processes: Automated scheduling of interviews, alerts and recruitment dashboard reduce delays and enhance the decision-making process.
+
+This solution will provide a well-organized, transparent, and effective hiring system by simplifying the recruitment process. It does not only reduce delays and manual errors but also enables making a decision based on data, which in the end, enhances organizational productivity and long-term workforce quality.

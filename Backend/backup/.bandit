@@ -1,0 +1,31 @@
+[bandit]
+# Bandit configuration for Resumify security scanning
+
+# Test IDs to skip
+skips = B101,B601
+
+# Test IDs to include (empty means include all)
+tests =
+
+# Paths to exclude from scanning
+exclude_dirs = venv,node_modules,.git,__pycache__,.pytest_cache
+
+# Severity level: LOW, MEDIUM, HIGH
+severity = MEDIUM
+
+# Confidence level: LOW, MEDIUM, HIGH
+confidence = MEDIUM
+
+# Output format: csv,custom,html,json,screen,txt,xml,yaml
+format = screen
+
+# Include line numbers in output
+msg-template = {abspath}:{line}: [{test_id}:{severity}] {msg}
+
+[assert_used]
+# Skip assert checks in test files
+skips = */tests/*,*/test_*
+
+[hardcoded_password_string]
+# Skip password string detection for certain patterns
+word_list = example,test,demo,placeholder
